@@ -40,7 +40,7 @@
 		0E1F58976B37A82218CA6596 /* Pods-ZZTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTestLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZTestLib_Tests/Pods-ZZTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		25C8171E4EF11D73098111A1 /* Pods-ZZTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTestLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZZTestLib_Tests/Pods-ZZTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39B6CA367AAB0B6F6806A08F /* Pods_ZZTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF7168A1AC7AEE4DFDFD75E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BF7168A1AC7AEE4DFDFD75E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZTestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8412316E54C3AD7C80D6BA2D /* Pods_ZZTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B45CBA70D95D814BF34C6234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B45CBA70D95D814BF34C6234 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BF2E4A758E59A11B44FDDB74 /* Pods-ZZTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTestLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZTestLib_Example/Pods-ZZTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D90D8BEDC78F57BBAC988375 /* ZZTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZTestLib.podspec; path = ../ZZTestLib.podspec; sourceTree = "<group>"; };
+		D90D8BEDC78F57BBAC988375 /* ZZTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZTestLib.podspec; path = ../ZZTestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE37A0C452561A5788DD323F /* Pods-ZZTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTestLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZTestLib_Example/Pods-ZZTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				25C8171E4EF11D73098111A1 /* Pods-ZZTestLib_Tests.debug.xcconfig */,
 				0E1F58976B37A82218CA6596 /* Pods-ZZTestLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

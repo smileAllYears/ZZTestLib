@@ -1,0 +1,16 @@
+PODS:
+  - ZZTestLib (0.1.0)
+
+DEPENDENCIES:
+  - ZZTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZZTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZTestLib: b1ee8ae35b6b393d8b28368bd9b4b9097d5fd794
+
+PODFILE CHECKSUM: 93ac4a26f584ec73bfeb0c861fcdcc63c910c0db
+
+COCOAPODS: 1.8.4
