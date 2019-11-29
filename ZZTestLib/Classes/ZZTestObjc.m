@@ -13,6 +13,7 @@
 
 @implementation ZZTestObjc
 - (void)zzprint {
+    NSLog(@"zzpring调用");
     [self test];
 }
 @end
