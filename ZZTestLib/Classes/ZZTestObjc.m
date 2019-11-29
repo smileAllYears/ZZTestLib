@@ -7,6 +7,12 @@
 
 #import "ZZTestObjc.h"
 
-@implementation ZZTestObjc
+@interface ZZTestObjc()
+- (void)test;
+@end
 
+@implementation ZZTestObjc
+- (void)zzprint {
+    [self test];
+}
 @end
